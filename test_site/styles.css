@@ -1,0 +1,86 @@
+/* === Основной фон страницы === */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #f0f4f8, #235479);
+  color: #333;
+}
+
+/* === Хедер === */
+header {
+  background-color: #24292e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* === Основные блоки === */
+.block {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.block h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* === Цветные блоки === */
+.block--blue {
+  background-color: #e3f2fd;
+}
+
+.block--green {
+  background-color: #e6f4ea;
+}
+
+.block--orange {
+  background-color: #fff3e0;
+}
+
+/* === Контент по колонкам === */
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.feature-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* === Футер === */
+footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #24292e;
+  text-decoration: none;
+}
